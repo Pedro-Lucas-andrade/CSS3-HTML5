@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            
+        }
+        a{
+            display: inline-block;
+            color: red;
+            text-decoration: none;
+            background-color: rgb(255, 223, 223);
+            border: 1px solid black;
+            margin: 5px;
+            padding: 2px;
+            box-shadow: 1px 1px  1px black;
+        }
+        a:hover{
+            background-color: rgba(0, 0, 0, 0.342);
+        }
+        a::after{
+            content: ' [link]';
+            color: rgb(107, 130, 130);
+        }
+        a::before{
+            content: '✔' ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <img src="" alt="">
+    <a href="https://github.com/gustavoguanabara/html-css" target="_blank">Repositório do Github</a> 
+    <a href="https://www.youtube.com/@CursoemVideo" target="_blank">Canal do Youtube</a> 
+    <a href="https://www.cursoemvideo.com/curso/curso-de-algoritmo/" target="_blank">Site do Curso em video</a>
+</body>
+</html>

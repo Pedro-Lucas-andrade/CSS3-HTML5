@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com audios</title>
+</head>
+<body>
+    <h1>adicionando audios</h1> <hr>
+    <p>Para adicionarmos audios em HTML5 temos 2 formas: 
+        <ol>
+            <li>forma</li>
+                <p>Usamos tag &lt;audio&gt;, aparecera &lt;audio src="local onde colocara a musica.mp3" controls &lt;/audio&gt;</p>
+            <li>forma</li>
+               <pre>
+                   <code>
+                       a mesma tag, porém
+                             &lt;audio preload="metadata" controls>
+                                   &lt;source src="[YT2mp3.info] - Guns N_' Roses - November Rain (2022 Version) (64kbps).mp3" type="audio/mpeg">
+                            &lt;/audio&gt;
+                   </code>
+               </pre>
+                
+        </ol>
+    </p>
+    <p>Hotel California (2013 Remaster)</p>
+    <audio src="[YT2mp3.info] - Hotel California (2013 Remaster) (32kbps).mp3" controls></audio>
+    <p>Guns N' Roses - November Rain (2022 Version)</p>
+    <code>
+        <audio preload="metadata" controls>
+            <source src="[YT2mp3.info] - Guns N_' Roses - November Rain (2022 Version) (64kbps).mp3" type="audio/mpeg">
+        </audio>
+    </code>
+    <h2>Baixando itens</h2>
+    <ul>
+        <li>
+            <a href="[YT2mp3.info] - Hotel California (2013 Remaster) (32kbps).mp3" download="[YT2mp3.info] - Hotel California (2013 Remaster) (32kbps).mp3" type="application/mp3">Hotel California</a>
+        </li>
+        <li>
+            <a href="[YT2mp3.info] - Guns N_' Roses - November Rain (2022 Version) (64kbps).mp3" download="[YT2mp3.info] - Guns N_' Roses - November Rain (2022 Version) (64kbps).mp3" type="application/mp3">November Rain</a>
+        </li>
+    </ul>
+</body>
+</html>

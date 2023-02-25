@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+    --cor1:#6B98B3;
+    --cor2:#00A1FF;
+    --cor3:#FFC680;
+    --cor4:#2C90B8;
+    --cor5:#73D7FF;
+
+    --fonte_destaque: 'Bebas Neue';
+}
+header{
+    background-color: #6B98B3;
+    margin: -28px -8px;
+    font: normal 20px 'Bebas Neue';
+    color: white;
+}
+header h1{
+    margin-left: 10px;
+    text-shadow: 1px 1px 1px black;
+   
+}
