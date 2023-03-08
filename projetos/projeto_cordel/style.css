@@ -1,0 +1,29 @@
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: -20px -5px 10px -5px;
+    padding: 20px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+main{
+    text-align: left;
+    margin-left: 30px;
+    background-image: url('arquivos/imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left center;
+    
+}
+
+.text{
+    background-color: white;
+    
+}
