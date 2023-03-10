@@ -13,7 +13,7 @@ header a{
 header a:hover{
     text-decoration: underline;
 }
-#foto01{
+.foto{
     width: 100%;
     height: 60vh;
     background-image: url('arquivos/imagens/background001.jpg');
@@ -21,4 +21,8 @@ header a:hover{
     margin: 0px -10px 0px 0px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+}
+#foto02{
+    background-image: url('arquivos/imagens/background002.jpg');
 }
