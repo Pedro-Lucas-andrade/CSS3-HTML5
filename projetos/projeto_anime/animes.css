@@ -1,0 +1,30 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+.lancamento{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(206, 176, 9);
+    margin: 1px solid black;
+    display: flexbox;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 5px;
+}
+.lancamento:hover{
+    background-size: 110%;
+    background-position: center;
+}
+#bleach{
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
