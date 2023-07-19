@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    html,body{
+        width: 97vw;
+        height: 100vh;
+    }
+    body{
+        background : url('../imagens/back-tablet.jpg') no-repeat center center;
+        background-size: cover;
+        
+    }
+    
+    main{
+            margin: auto;
+            width: 420px;
+            background-color: rgba(255, 255, 255, 0.925);
+            border-radius: 10px;
+            padding: 10px;
+    }
+
+    #tablet{
+        display: block;
+        margin: auto;
+    }
+
+    img#phone{
+        display: none;
+    }  
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    html,body{
+        width: 97vw;
+        height: 100vh;
+    }
+    body{
+        background : url('../imagens/back-pc.jpg') no-repeat center center;
+        background-size: cover;
+        
+    }
+    
+    main{
+            margin: auto;
+            width: 420px;
+            background-color: rgba(255, 255, 255, 0.925);
+            border-radius: 10px;
+            padding: 10px;
+    }
+
+    #pc{
+        display: block;
+        margin: auto;
+    }
+
+    img#phone, img#tablet{
+        display: none;
+    }  
+}
+
+@media screen and (min-width: 1200px) and(max-width: 2000px){
+    html,body{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    body{
+        background: url('../imagens/back-tv.jpg') no-repeat center center;
+    }
+
+    main{
+        width: 1000px;
+    }
+
+    img#tv{
+        display: block;
+        margin: auto;
+    }
+
+    img#phone, img#tablet{
+        display: none;
+    }
+
+    
+}
